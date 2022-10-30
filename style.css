@@ -156,7 +156,7 @@ li > input[type="text"] {
   text-decoration: line-through;
   color: #888;
 }
-
+ 
 /* Edit Task */
 ul li input[type=text] {
   display: none;
