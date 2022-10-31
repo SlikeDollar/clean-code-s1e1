@@ -5,16 +5,6 @@ body {
   font-family: Lato, sans-serif;
 }
 
-button {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
-}
-
 ul {
   margin: 0;
   padding: 0px;
@@ -137,40 +127,40 @@ button {
   vertical-align: middle;
 }
 
-.todo__tasks-item > .todo__input {
+.todo__tasks-input {
   margin: 0 10px;
   width: 226px;
 }
 
-.todo__tasks-item > .todo__label {
+.todo__tasks-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.todo__delete-btn img {
+.todo__delete-btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.todo__delete-btn img:hover {
+.todo__delete-btn-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.todo__label_done {
+#completed-tasks .todo__label {
   text-decoration: line-through;
   color: #888;
 }
  
 /* Edit Task */
-.editMode .todo__label {
+.todo__tasks-edit .todo__label {
   display: none;
 }
 
-.editMode .todo__input{
+.todo__tasks-edit .todo__input{
   display: inline-block;
   width: 224px;
 }
